@@ -5,8 +5,6 @@ import "../assets/common.css"
 
 class ShellContainer extends React.Component {
 
-
-
   render() {
     return (
       <div id="shell-container">

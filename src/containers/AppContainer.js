@@ -4,8 +4,6 @@ import ShellContainer from "../containers/ShellContainer";
 
 class App extends React.Component {
 
-  async componentDidMount () {
-  }
 
   render() {
     return (
