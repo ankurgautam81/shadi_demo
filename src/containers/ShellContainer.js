@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import DesktopNavBar from "../components/DesktopNavBar"
-import "../assets/common.css"
+import "../assets/common.scss"
 
 class ShellContainer extends React.Component {
 

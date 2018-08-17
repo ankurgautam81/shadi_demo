@@ -6,7 +6,7 @@ var config = {
    },
    devServer: {
       inline: true,
-      port: 8080
+      port: 2000
    },
    module: {
       rules: [
@@ -17,7 +17,15 @@ var config = {
             query: {
                presets: ['es2015', 'react']
             }
-         }
+         },
+        {
+          test: /\.css$/,
+          loader: "style-loader!css-loader"
+        },
+        {
+          test: /\.scss$/,
+          loader: "style-loader!css-loader"
+        }
       ]
    }
 }
