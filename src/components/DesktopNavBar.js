@@ -4,6 +4,7 @@ import {isEmpty} from 'lodash'
 import Link from "react-router/lib/Link";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
+
 const DesktopNavBar = ({ urlPath, toggleSubMenu, showSubMenu, selected, showSubmenuOnHover, hideSubmenuOnHover, customerInfo, isShowNetwokStrip, closeNetworkStrip, customerDropDownClass}) => (
   <div>
     <Navbar inverse collapseOnSelect fixedTop>
